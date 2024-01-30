@@ -1,11 +1,10 @@
 <script setup>
+import Homeview from './components/home/homeview.vue';
 </script>
 
 <template>
-    <div className="bg-red-400">
-        <h1>Hello World!</h1>
-    </div>
-    
+  
+  <Homeview />  
 </template>
 
 <style scoped>
